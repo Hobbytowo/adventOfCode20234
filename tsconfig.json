@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ESNext",
+      "strict": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "resolveJsonModule": true,
+      "lib": ["esnext", "dom"]
+    },
+    "include": ["./src/**/*"],
+    "ts-node": {
+      "require": ["tsconfig-paths/register"]
+    }
+  }
